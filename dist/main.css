@@ -1,1 +1,1 @@
-.box{padding:1rem;border:3px dotted red;position:relative;display:block}
+.box{padding:1rem;border:3px dotted red;position:relative;display:inline-block;width:15cm;height:15cm}.card{position:absolute;z-index:1;left:50%;top:50%;transform:translate(-50%, -50%);box-shadow:0 0 10px 0 rgba(0,0,0,.5)}.card--1{height:4.3cm;width:10.5cm}.card--2{height:10.5cm;width:10.5cm}.card--3{height:10.5cm;width:14.7cm}.card--blue{background-color:blue}.card--red{background-color:red}.card--green{background-color:green}.card--purple{background-color:purple}
