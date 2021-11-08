@@ -39,7 +39,7 @@ export class Draggable {
   private onMouseDown(e: MouseEvent) {
     e.preventDefault();
     this.setDragPosition(e);
-    this.el.style.zIndex = (zIndex++).toString();
+    this.el.style.zIndex = (++zIndex).toString();
     this.isDragging = true;
   }
 
